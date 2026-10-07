@@ -9,7 +9,7 @@ export const siteConfig = {
     { name: 'Kartikae Khurana', phone: '8558074708' },
     { name: 'Samit Wadhwa', phone: '9717913568' },
   ],
-  whatsappNumber: '',
+  whatsappNumber: '+918558074708',
   addresses: {
     noida: '[Noida address to be added]',
     chandigarhMohali: '[Chandigarh / Mohali address to be added]',
