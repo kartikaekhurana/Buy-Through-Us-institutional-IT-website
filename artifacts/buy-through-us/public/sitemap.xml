@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace example.invalid with the confirmed production domain before launch. -->
+  <url><loc>https://example.invalid/</loc></url>
+  <url><loc>https://example.invalid/services</loc></url>
+  <url><loc>https://example.invalid/roles</loc></url>
+  <url><loc>https://example.invalid/plans</loc></url>
+  <url><loc>https://example.invalid/refurbished</loc></url>
+  <url><loc>https://example.invalid/coverage</loc></url>
+  <url><loc>https://example.invalid/how-it-works</loc></url>
+  <url><loc>https://example.invalid/faq</loc></url>
+  <url><loc>https://example.invalid/contact</loc></url>
+  <url><loc>https://example.invalid/privacy</loc></url>
+  <url><loc>https://example.invalid/terms</loc></url>
+  <url><loc>https://example.invalid/warranty</loc></url>
+</urlset>

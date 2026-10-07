@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Buy Through Us"
+description = "A mobile-first website for Buy Through Us, an IT hardware and infrastructure partner serving startups, schools, universities, healthcare institutions, and transport organizations across Delhi NCR and Punjab."
+version = "1.0.0"
+id = "artifacts/buy-through-us"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24756
+
+[services.development]
+run = "pnpm --filter @workspace/buy-through-us run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/buy-through-us", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/buy-through-us/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24756"
+BASE_PATH = "/"
